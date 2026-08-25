@@ -42,6 +42,8 @@ const PhotoCard = ({ post , commentsCount , incr }) => {
       </figcaption>
 
     </figure>
+    <h2>the new file add</h2>
+    <h1>helooo </h1>
   );
 };
 
