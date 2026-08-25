@@ -25,6 +25,7 @@ const Photo = () => {
 
   return (
     <div className="photo-grid">
+      /* hello the photo component */
       {/* إذا أردت مشاهدة البيانات: */}
       {/* <pre>{JSON.stringify(posts, null, 2)}</pre> */}
     {posts.map((post, i) => {
