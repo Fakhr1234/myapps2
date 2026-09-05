@@ -19,6 +19,7 @@ const Main = () => {
   return (
     <div>
       <h2>Home</h2>
+      <h1>the home is charhter what name of user</h1>
       <ul>
         {posts.map((post) => (
           <li key={post.code}>
