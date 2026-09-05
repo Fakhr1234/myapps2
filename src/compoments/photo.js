@@ -25,12 +25,14 @@ const Photo = () => {
 
   return (
     <div className="photo-grid">
+      /* hello the photo component */
       {/* إذا أردت مشاهدة البيانات: */}
       {/* <pre>{JSON.stringify(posts, null, 2)}</pre> */}
     {posts.map((post, i) => {
     const postComments = comments.filter(c => c.id.startsWith(post.code + "_"));
     return <PhotoCard key={post.code || i} post={post} commentsCount={postComments.length} incr={()=>handleAddComment(post.code,post.likes)}/>;
 })}
+<h1>the different between the two components is Redis</h1>
     </div>
   );
 };
